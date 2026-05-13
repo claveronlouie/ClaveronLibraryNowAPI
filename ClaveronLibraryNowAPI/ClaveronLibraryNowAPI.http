@@ -1,0 +1,6 @@
+@ClaveronLibraryNowAPI_HostAddress = http://localhost:5140
+
+GET {ClaveronLibraryNowAPI_HostAddress}/ weatherforecast/
+Accept: application/json
+
+###
