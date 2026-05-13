@@ -20,7 +20,7 @@ app.UseSwaggerUI();
 app.UseHttpsRedirection();
 
 // ⭐ ADD ROOT ROUTE (THIS FIXES YOUR 404)
-app.MapGet("/", () => "BotonLibraryNowAPI is running 🚀");
+app.MapGet("/", () => "ClaveronLibraryNowAPI is running 🚀");
 
 // Controllers
 app.MapControllers();
